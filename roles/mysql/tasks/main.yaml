@@ -1,7 +1,3 @@
-- name: configure mysql server
-  hosts: mysql
-  become: yes
-  tasks:
   - name: install MySQL server
     ansible.builtin.dnf:
       name: mysql-server
