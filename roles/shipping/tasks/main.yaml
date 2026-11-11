@@ -1,11 +1,11 @@
 - name: app set up
   ansible.builtin.import_role:
-    name: commom
+    name: common
     tasks_from: app-setup.yaml
 
 - name: java set up
   ansible.builtin.import_role:
-    name: commom
+    name: common
     tasks_from: java-setup.yaml
 
 - name: systemd setup
