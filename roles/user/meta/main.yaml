@@ -1,0 +1,4 @@
+dependencies:
+- role: common
+# user role is dependent on common role
+
