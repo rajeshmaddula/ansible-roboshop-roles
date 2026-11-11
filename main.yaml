@@ -1,0 +1,5 @@
+- name: configure {{ component }} server
+  host: local
+  become: yes
+  roles:
+  - {{ component }}
