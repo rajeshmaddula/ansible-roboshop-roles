@@ -6,7 +6,7 @@
 - name: java set up
   ansible.builtin.import_role:
     name: commom
-    tasks_from: app-setup.yaml
+    tasks_from: java-setup.yaml
 
 - name: systemd setup
   ansible.builtin.import_role:
